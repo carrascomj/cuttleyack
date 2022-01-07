@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "cuttleyak"
+version = "0.1.0"
+description = "Hierarchical color scales."
+authors = ["carrascomj <carrascomurielj@gmail.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+numpy = "^1.22.0"
+
+[tool.poetry.dev-dependencies]
+black = "^21.12b0"
+isort = "^5.10.1"
+flake8 = "^4.0.1"
+pytest = "^6.2.5"
+matplotlib = "^3.5.1"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
